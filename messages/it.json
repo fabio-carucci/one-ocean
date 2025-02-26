@@ -1,0 +1,45 @@
+{
+  "Metadata": {
+    "general-description": "La Ocean One Foundation è impegnata nella protezione degli oceani e nella salvaguardia della biodiversità marina. Lavoriamo per un futuro sostenibile, promuovendo pratiche oceaniche responsabili e sensibilizzando sul rispetto dell'ambiente marino."
+  },
+  "Error": {
+    "title": "Something went wrong",
+    "description": "<p>An unexpected error occurred. You can try to <retry>reload</retry> the page.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "message": "The page you are looking for may have been moved or no longer exists.",
+    "goBackHome": "Go back to home"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, it {IT} en {EN} other {Unknown}}"
+  },
+  "NavLinks": {
+    "about_us": "Chi siamo",
+    "blue_economy": "Economia blu",
+    "our_approach": "Il nostro approccio",
+    "projects": "Progetti",
+    "resources": "Risorse",
+    "events": "Eventi",
+    "take_actions": "Agisci",
+    "mission": "Missione",
+    "ambassadors": "Ambasciatori",
+    "partner": "Partner",
+    "for_schools": "Per le scuole",
+    "news": "Notizie",
+    "contact_us": "Contattaci",
+    "newsletter": "Newsletter"
+  },
+  "Homepage": {
+    "Hero": {
+      "subtitle": "La nostra missione",
+      "title": "Leader ispiratori, che guidano l’economia blu e promuovono la conoscenza degli oceani."
+    }
+  },
+  "About_us": {
+    "Hero": {
+      "title": "Chi siamo noi"
+    }
+  }
+}
