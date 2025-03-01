@@ -19,6 +19,11 @@ const ROUTES: Record<string, PathnameKey> = {
   NEWS: "/notizie",
   CONTACT_US: "/contattaci",
   NEWSLETTER: "/newsletter",
+  AWARENESS: "/consapevolezza",
+  IMPACT_AREA: "/aree-di-impatto",
+  PRIVACY_POLICY: "/informativa-privacy",
+  COOKIE_POLICY: "/informativa-cookie",
+  PRIVACY_PREFERENCES: "/preferenze-privacy",
 };
 
 export default ROUTES;

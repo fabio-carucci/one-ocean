@@ -65,6 +65,26 @@ export const routing = defineRouting({
       it: "/contattaci",
       en: "/contact-us",
     },
+    "/consapevolezza": {
+      it: "/consapevolezza",
+      en: "/awareness",
+    },
+    "/aree-di-impatto": {
+      it: "/aree-di-impatto",
+      en: "/areas-of-impact",
+    },
+    "/informativa-privacy": {
+      it: "/informativa-privacy",
+      en: "/privacy-policy",
+    },
+    "/informativa-cookie": {
+      it: "/informativa-cookie",
+      en: "/cookie-policy",
+    },
+    "/preferenze-privacy": {
+      it: "/preferenze-privacy",
+      en: "/privacy-preferences",
+    },
   },
 });
 

@@ -1,6 +1,6 @@
-import ROUTES from "./routes";
-
 import { Pathname } from "@/i18n/routing";
+
+import ROUTES from "./routes";
 
 interface NavigationLinks {
   route: Pathname;

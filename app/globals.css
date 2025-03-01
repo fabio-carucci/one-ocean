@@ -112,5 +112,6 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Raleway", sans-serif;
+    overflow: hidden;
   }
 }

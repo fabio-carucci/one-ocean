@@ -13,8 +13,8 @@ export function getPageMetadata({
 }) {
   // Se il titolo è fornito, aggiungi " - Ocean One Foundation", altrimenti usa solo "Ocean One Foundation"
   const finalTitle = pageTitle
-    ? `${pageTitle} - Ocean One Foundation`
-    : "Ocean One Foundation";
+    ? `${pageTitle} - One Ocean Foundation`
+    : "One Ocean Foundation";
 
   // Genera l'URL canonico
   const canonicalUrl = `http://localhost:3000${locale === "it" ? "" : `/${locale}`}${slug}`;

@@ -11,6 +11,16 @@ export default {
   theme: {
     extend: {
       colors: {
+        "oof-blue": {
+          DEFAULT: "#1D3158", // Blu principale (equivalente a bg-oof-blue)
+          50: "#E4EAF6", // Blu chiarissimo
+          100: "#C9D5ED",
+          200: "#7CC9D3",
+          300: "#1176B1",
+          500: "#1D3158", // Blu principale (stesso di DEFAULT)
+          700: "#162441",
+          900: "#0E172A", // Blu quasi nero
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -56,6 +66,10 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        inter: "var(--font-inter)",
+        raleway: "var(--font-raleway)",
       },
     },
   },

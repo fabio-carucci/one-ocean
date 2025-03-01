@@ -23,6 +23,7 @@
     "resources": "Risorse",
     "events": "Eventi",
     "take_actions": "Agisci",
+    "discover_more": "Scopri di più",
     "mission": "Missione",
     "ambassadors": "Ambasciatori",
     "partner": "Partner",
@@ -31,10 +32,112 @@
     "contact_us": "Contattaci",
     "newsletter": "Newsletter"
   },
+  "Footer": {
+    "TakeActions": {
+      "text-1": "Sei un privato, un'associazione, un'azienda?",
+      "text-2": "Lavori nella ricerca, nella comunicazione, nella tecnologia per l'ambiente?",
+      "btn": "Agisci ora",
+      "discover_team": "Scopri il nostro team"
+    },
+    "FooterLinks": {
+      "Foundation": {
+        "title": "La Fondazione",
+        "about_us": "Chi siamo",
+        "mission": "Missione",
+        "our_partners": "I nostri partner",
+        "ambassadors": "Ambasciatori",
+        "take_actions": "Agisci ora"
+      },
+      "What_we_do": {
+        "title": "Cosa facciamo",
+        "blue_economy": "Economia Blu",
+        "our_approach": "Il nostro approccio",
+        "awareness": "Sensibilizzazione",
+        "impact_area": "Aree di impatto",
+        "projects": "Progetti"
+      },
+      "Discover_more": {
+        "title": "Scopri di più",
+        "resources": "Risorse",
+        "events": "I nostri eventi",
+        "news": "Notizie",
+        "for_schools": "Per le scuole",
+        "contact_us": "Contattaci"
+      },
+      "Other": {
+        "title": "Altro",
+        "privacy_policy": "Informativa sulla privacy",
+        "cookie_policy": "Politica sui cookie",
+        "preferences": "Preferenze sulla privacy"
+      }
+    },
+    "info": "2025 One Ocean Foundation - P.iva 10294580963 - Codice Fiscale: 97798770158"
+  },
   "Homepage": {
     "Hero": {
       "subtitle": "La nostra missione",
       "title": "Leader ispiratori, che guidano l’economia blu e promuovono la conoscenza degli oceani."
+    },
+    "About": {
+      "subtitle": "Su di noi",
+      "title": "La missione della Fondazione è accelerare le soluzioni alle problematiche dell’oceano, ispirando leader internazionali, istituzioni, aziende e persone; promuovendo l’economia blu e migliorando la conoscenza dell’oceano attraverso l’alfabetizzazione oceanica."
+    },
+    "AboutFoundation": {
+      "Video": {
+        "subtitle": "La nostra visione",
+        "title": "Crediamo che One Ocean Foundation possa, in diversi modi, fornire un aiuto concreto per evidenziare e combattere i problemi degli oceani a livello globale.",
+        "text": "In particolare, crediamo che, grazie alla nostra importante rete, possiamo sviluppare una piattaforma di riferimento per la tutela degli oceani. Pensiamo alla One Ocean Foundation come a una piattaforma in grado di unire e rafforzare gli sforzi esistenti a favore degli oceani, adottando un approccio collaborativo e non competitivo."
+      },
+      "Timeline": {
+        "subtitle": "Il Nostro Impatto",
+        "title": "One Ocean Foundation è un progetto di sostenibilità ambientale lanciato dallo Yacht Club Costa Smeralda nel 2017.",
+        "history": [
+          {
+            "year": 2017,
+            "title": "Anno di Nascita",
+            "text": "One Ocean Foundation (OOF) è un'iniziativa italiana di rilevanza internazionale creata su iniziativa dello Yacht Club Costa Smeralda che, nel 2017, anno del suo 50º anniversario, ha voluto lanciare un progetto di sostenibilità ambientale."
+          },
+          {
+            "year": 2018,
+            "title": "Iniziativa di Trasparenza sugli Oceani",
+            "text": "OOF sviluppa l'Ocean Disclosure Initiative, un programma pionieristico progettato per incoraggiare le aziende a valutare e divulgare il loro impatto sugli ecosistemi marini, promuovendo una maggiore responsabilità aziendale nella conservazione degli oceani."
+          },
+          {
+            "year": 2019,
+            "title": "Ricerca sull'Economia Blu",
+            "text": "OOF lancia uno studio innovativo sull'Economia Blu, analizzando l'impatto economico delle industrie legate agli oceani e promuovendo pratiche aziendali sostenibili per la protezione degli ecosistemi marini."
+          },
+          {
+            "year": 2020,
+            "title": "Campagna Globale di Sensibilizzazione",
+            "text": "In un periodo di sfide globali, OOF intensifica il suo impegno lanciando una campagna internazionale di sensibilizzazione, coinvolgendo istituzioni, imprese e individui in azioni concrete per la salvaguardia degli oceani."
+          }
+        ]
+      },
+      "Message": {
+        "subtitle": "Messaggio del nostro <important>Presidente, Riccardo Bonadeo</important>",
+        "title": "“Abbiamo ancora l'opportunità di reagire all'emergenza ambientale e climatica”",
+        "text-1": "Negli ultimi anni, ci siamo trovati di fronte a una sfida sanitaria e sociale senza precedenti. Una sfida che ci ha costretti a cambiare radicalmente il nostro stile di vita e a riflettere sia sulla nostra fragilità, sia sull'impatto che abbiamo sul pianeta che abitiamo - l'unico che abbiamo a disposizione.",
+        "text-2": "Dobbiamo utilizzare le lezioni che la pandemia ci ha insegnato e sfruttare questa nuova consapevolezza per evidenziare un altro problema epocale, messo temporaneamente da parte, ma profondamente interconnesso con l'emergenza che stiamo vivendo: la crisi degli oceani.",
+        "text-3": "L'oceano ha un enorme impatto sulle nostre vite, qualsiasi cosa che lo danneggi finisce per danneggiare la nostra salute. Per questo motivo, la One Ocean Foundation rinnova il suo appello a imprese, associazioni, comunità scientifica e cittadini per unirsi in una missione comune per rispettare e proteggere l'oceano.",
+        "cards": [
+          {
+            "subtitle": "Fase 1",
+            "title": "Sensibilizzazione",
+            "text": "Sensibilizzare riguardo le problematiche oceaniche tramite la nostra iniziativa Ocean Disclosure e la conoscenza."
+          },
+          {
+            "subtitle": "Fase 2",
+            "title": "Definizione",
+            "text": "Definire le aree di impatto stabilendo obiettivi chiari focalizzati sulla biodiversità, il carbonio blu e l'educazione."
+          },
+          {
+            "subtitle": "Fase 3",
+            "title": "Attivazione",
+            "text": "Attivare progetti per permettere alle aziende di intraprendere azioni concrete per la conservazione degli oceani."
+          }
+        ]
+      }
     }
   },
   "About_us": {

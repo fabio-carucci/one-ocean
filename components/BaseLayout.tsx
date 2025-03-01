@@ -1,11 +1,10 @@
-import { Raleway } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
-const raleway = Raleway({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+import { cn } from "@/lib/utils";
+import { inter, raleway } from "@/styles/fonts";
+
+import ScrollManager from "./ScrollManager";
 
 type Props = {
   children: React.ReactNode;
@@ -18,13 +17,15 @@ export default async function BaseLayout({ children, locale }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body className={raleway.className}>
-        {/* Provider per l'internazionalizzazione */}
-        <NextIntlClientProvider messages={messages}>
-          <main>{children}</main>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <ScrollManager>
+      <html lang={locale}>
+        <body className={cn(inter.variable, raleway.variable, "font-inter")}>
+          {/* Provider per l'internazionalizzazione */}
+          <NextIntlClientProvider messages={messages}>
+            <main>{children}</main>
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    </ScrollManager>
   );
 }

@@ -44,13 +44,13 @@ export default function LocaleSwitcher(): React.ReactNode {
     >
       <Button
         asChild
-        className="w-fit bg-transparent text-gray-700 hover:bg-gray-100"
+        className="w-fit border-[#365BA5] bg-[#365BA5]/20 text-oof-blue-200 hover:bg-[#365BA5]/40"
       >
         <SelectTrigger>
           <SelectValue placeholder="🌐" />
         </SelectTrigger>
       </Button>
-      <SelectContent>
+      <SelectContent className="bg-[#365BA5]/20 text-oof-blue-200">
         {routing.locales.map((cur) => (
           <SelectItem key={cur} value={cur}>
             {t("locale", { locale: cur })}

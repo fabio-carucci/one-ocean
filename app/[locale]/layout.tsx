@@ -3,7 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ReactNode } from "react";
 
 import BaseLayout from "@/components/BaseLayout";
-import Navbar from "@/components/navigation/navbar/Navbar";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navigation/navbar";
 import { Locale, routing } from "@/i18n/routing";
 import { getPageMetadata } from "@/lib/metadata";
 
@@ -44,6 +45,8 @@ export default async function LocaleLayout({ children, params }: Props) {
       <Navbar />
 
       <div>{children}</div>
+
+      <Footer />
     </BaseLayout>
   );
 }

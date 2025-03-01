@@ -23,6 +23,7 @@
     "resources": "Resources",
     "events": "Our Events",
     "take_actions": "Take Action",
+    "discover_more": "Discover more",
     "mission": "Mission",
     "ambassadors": "Ambassadors",
     "partner": "Partner",
@@ -31,10 +32,112 @@
     "contact_us": "Contact Us",
     "newsletter": "Newsletter"
   },
+  "Footer": {
+    "TakeActions": {
+      "text-1": "Are you an individual, an association, a company?",
+      "text-2": "Do you work in research, communication, technology for the environment?",
+      "btn": "Take Action",
+      "discover_team": "Discover Our Team"
+    },
+    "FooterLinks": {
+      "Foundation": {
+        "title": "The Foundation",
+        "about_us": "About Us",
+        "mission": "Mission",
+        "our_partners": "Our Partners",
+        "ambassadors": "Ambassadors",
+        "take_actions": "Take Actions"
+      },
+      "What_we_do": {
+        "title": "What we do",
+        "blue_economy": "Blue Economy",
+        "our_approach": "Our Approach",
+        "awareness": "Awareness",
+        "impact_area": "Areas of impact",
+        "projects": "Projects"
+      },
+      "Discover_more": {
+        "title": "Discover more",
+        "resources": "Resources",
+        "events": "Our Events",
+        "news": "News",
+        "for_schools": "For Schools",
+        "contact_us": "Contact Us"
+      },
+      "Other": {
+        "title": "Other",
+        "privacy_policy": "Privacy Policy",
+        "cookie_policy": "Cookie Policy",
+        "preferences": "Privacy Preferences"
+      }
+    },
+    "info": "2025 One Ocean Foundation - P.iva 10294580963 - Fiscal code: 97798770158"
+  },
   "Homepage": {
     "Hero": {
       "subtitle": "Our Mission",
       "title": "Inspiring leaders, driving the blue economy, and advancing ocean literacy"
+    },
+    "About": {
+      "subtitle": "Su di noi",
+      "title": "The mission of the Foundation is to accelerate solutions to Ocean issues by inspiring international leaders, institutions, companies, and people; promoting blue economy and enhancing ocean knowledge through ocean literacy."
+    },
+    "AboutFoundation": {
+      "Video": {
+        "subtitle": "Our Vision",
+        "title": "We believe One Ocean Foundation can, in different ways, provide a concrete help to highlight and fight ocean issues globally.",
+        "text": "In particular, we believe that, thanks to our important network we can develop a leading platform for the ocean protection. We think of the One Ocean Foundation, as a platform that can bring together and strengthen the existing efforts on behalf of the ocean from a collaborative, not competitive, perspective."
+      },
+      "Timeline": {
+        "subtitle": "Our Impact",
+        "title": "One Ocean Foundation is an environmental sustainability project launched by the Yacht Club Costa Smeralda in 2017.",
+        "history": [
+          {
+            "year": 2017,
+            "title": "Year of Born",
+            "text": "One Ocean Foundation (OOF) is an Italian initiative of international relevance created at the behest of the Yacht Club Costa Smeralda, which, in 2017, its 50th anniversary year, wanted to launch an environmental sustainability project."
+          },
+          {
+            "year": 2018,
+            "title": "Ocean Disclosure Initiative",
+            "text": "OOF develops the Ocean Disclosure Initiative, a pioneering program designed to encourage companies to assess and disclose their impact on marine ecosystems, fostering greater corporate responsibility in ocean conservation."
+          },
+          {
+            "year": 2019,
+            "title": "Blue Economy Research",
+            "text": "OOF launches a pioneering study on the Blue Economy, analyzing the economic impact of ocean-related industries and promoting sustainable business practices to protect marine ecosystems."
+          },
+          {
+            "year": 2020,
+            "title": "Global Awareness Campaign",
+            "text": "Amid global challenges, OOF intensifies its commitment by launching an international awareness campaign, engaging institutions, businesses, and individuals in concrete actions to safeguard the oceans."
+          }
+        ]
+      },
+      "Message": {
+        "subtitle": "Message from our <important>President, Riccardo Bonadeo</important>",
+        "title": "“We still have the opportunity to react to the environmental and climate emergency”",
+        "text-1": "In the past years, we have been faced with an unprecedented health and social challenge. A challenge that has forced us to radically change our lifestyle and to reflect both on how fragile we are, and on the impact we have on the planet we inhabit - the only one we have available.",
+        "text-2": "We must utilize the lessons that the pandemic has taught us and exploit this new awareness to highlight another epochal issue, one that has temporarily been set aside but is deeply interconnected with the emergency we are experiencing: ocean crisis.",
+        "text-3": "The ocean has an enormous impact on our lives, anything that harms it ends up harming our health. This is why the One Ocean Foundation is renewing its appeal to companies, associations, the scientific community and citizens to join a common mission to respect and protect the ocean.",
+        "cards": [
+          {
+            "subtitle": "Phase 1",
+            "title": "Awareness",
+            "text": "Raising Awareness about Ocean Issues through our Ocean Disclosure Initiative and knoledge."
+          },
+          {
+            "subtitle": "Phase 2",
+            "title": "Definition",
+            "text": "Defining Areas of Impact setting clear goals focusing on biodiversity, blue carbon and education."
+          },
+          {
+            "subtitle": "Phase 3",
+            "title": "Activation",
+            "text": "Activating projects to empower companies to take actionable steps towards ocean conservation."
+          }
+        ]
+      }
     }
   },
   "About_us": {

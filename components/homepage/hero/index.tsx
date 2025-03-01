@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
         loop
         muted
       >
-        <source src="/Hero_video.mp4" type="video/mp4" />
+        <source src="/Hero_video.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
