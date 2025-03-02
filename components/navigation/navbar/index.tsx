@@ -16,29 +16,19 @@ const Navbar = () => {
   const navbarRef = useRef<HTMLHeadingElement | null>(null);
 
   useEffect(() => {
-    if (navbarRef.current) {
-      gsap.to(navbarRef.current, {
-        scrollTrigger: {
-          trigger: "body",
-          start: "top -200px",
-          toggleActions: "play none none reverse",
-          onEnter: () => {
-            gsap.to(navbarRef.current, {
-              backgroundColor: "rgba(29, 49, 88)",
-              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-              duration: 0.3,
-            });
-          },
-          onLeaveBack: () => {
-            gsap.to(navbarRef.current, {
-              backgroundColor: "rgba(29, 49, 88, 0)",
-              boxShadow: "none",
-              duration: 0.3,
-            });
-          },
-        },
-      });
-    }
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "body",
+        start: "top -200px",
+        toggleActions: "play none none reverse",
+      },
+    });
+
+    tl.to(navbarRef.current, {
+      backgroundColor: "rgba(29, 49, 88)",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+      duration: 0.3,
+    });
   }, []);
 
   return (
