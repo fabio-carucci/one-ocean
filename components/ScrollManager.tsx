@@ -1,7 +1,12 @@
 "use client";
 
-import Lenis from "@studio-freight/lenis";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from "lenis";
 import { useEffect, useRef } from "react";
+import "lenis/dist/lenis.css";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ScrollManager: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -9,26 +14,41 @@ const ScrollManager: React.FC<{ children: React.ReactNode }> = ({
   const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
-    // Crea una nuova istanza di Lenis
-    lenisRef.current = new Lenis({
-      lerp: 0.1, // velocità di scorrimento
-      smoothWheel: true, // rende il movimento della rotella più fluido
+    // Nuova istanza di Lenis
+    const lenis = new Lenis({
+      autoRaf: false,
+      smoothWheel: true,
+      lerp: 0.1,
     });
+
+    lenisRef.current = lenis;
+
+    // Sincronizza Lenis con ScrollTrigger
+    lenis.on("scroll", ScrollTrigger.update);
+
+    // Aggiunge Lenis al ticker di GSAP
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000); // GSAP usa il tempo in secondi, Lenis in ms
+    });
+
+    // Disabilita la lag smoothing di GSAP per evitare ritardi nelle animazioni
+    gsap.ticker.lagSmoothing(0);
 
     // Funzione per il rendering a 60 FPS
     function raf(time: number) {
-      if (lenisRef.current) lenisRef.current.raf(time); // aggiorna Lenis ad ogni frame
-      requestAnimationFrame(raf); // continua il ciclo di animazione
+      lenis.raf(time);
+      requestAnimationFrame(raf);
     }
-
     requestAnimationFrame(raf);
 
     return () => {
-      if (lenisRef.current) lenisRef.current.destroy(); // pulizia quando il componente viene smontato
+      // Cleanup: rimuove Lenis dal ticker di GSAP e distrugge l'istanza
+      gsap.ticker.remove((time) => lenis.raf(time * 1000));
+      lenis.destroy();
     };
   }, []);
 
-  return <>{children}</>; // Rende il contenuto figlio all'interno del manager
+  return <>{children}</>;
 };
 
 export default ScrollManager;

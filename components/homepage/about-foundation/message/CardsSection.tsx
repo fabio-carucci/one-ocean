@@ -75,9 +75,9 @@ const CardsSection: React.FC<{
       scrollTrigger: {
         trigger: messageContainer,
         start: "center center",
-        end: "+=2000", // Durata della sezione pin (puoi regolarla in base alla lunghezza)
-        scrub: true, // Scrub controlla l'animazione in tempo reale con lo scroll
-        pin: true, // Pin the container while scrolling
+        end: "+=2000",
+        scrub: true,
+        pin: true,
         pinType: "fixed",
         pinSpacing: true,
         toggleActions: "play reverse play reverse", // L'animazione parte quando scendi e ritorna indietro quando sali
@@ -100,7 +100,7 @@ const CardsSection: React.FC<{
   return (
     <div
       ref={cardsContainerRef}
-      className="flex max-w-[1140px] gap-[16px] py-[56px] will-change-transform"
+      className="grid max-w-[1140px] gap-[16px] py-[56px] md:grid-cols-3"
     >
       {cardsData.map((card, index) => (
         <CardItem

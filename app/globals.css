@@ -114,4 +114,8 @@
     font-family: "Raleway", sans-serif;
     overflow: hidden;
   }
+  ::selection {
+    background-color: #162441;
+    color: #7cc9d3;
+  }
 }
